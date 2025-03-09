@@ -1,0 +1,258 @@
+.fixed{
+  margin: 0px;
+  background-color: #dda31b;
+  box-sizing: border-box;
+  position:fixed;
+
+}
+
+#contacts-page{
+  background-color: white;
+}
+
+#p-txt{
+  font-family: "Mea Culpa", serif;
+ font-weight: 400;
+ font-style: normal;
+  padding-right: 3px;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+
+.music-txt{
+  text-align: center;
+}
+
+.header-header {
+  position: relative;
+  background-color: white;
+  padding-bottom: 15px;
+  width : 1440px;
+}
+
+.header-menu {
+  display: inline-block;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 65px
+
+}
+
+
+.social-logo{
+  align-items: flex-end;
+  display: inline;
+  margin-left: 635px;
+
+}
+
+.poster-logo{
+  position: relative;
+  height: 640px;
+  width: 1440px;
+
+}
+.poster-pic{
+  margin: 0px;
+  width: 100%;
+  height: 660px;
+}
+
+.footer{
+  background-color: #dda31b;
+  height: 110px;
+  text-align: center;
+  margin-right: 500px;
+
+}
+
+.footer-2{
+  background-color: black;
+  text-align: center;
+  height: 250px
+
+}
+
+.footer-3 {
+  background-color: #dda31b;
+  height: 140px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-4{
+  background-color: black;
+  text-align: center;
+  height: 250px;
+  margin-top: 110px;
+
+}
+
+.email{
+  position: relative;
+  bottom: 50%;
+  left: 450px
+}
+
+
+p, h3{
+  margin-bottom: 5px;
+  margin-top: 0px;
+  font-family: "Public Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+h4{
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: "Merriweather Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+#{
+  font-family: "Lexend", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+a{
+  font-family: "Shippori Antique", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.whatsapp-2 {
+  color: #dda31b;
+  margin-right: 470px;
+  padding-top: 20px;
+  left: 20px;
+
+}
+
+.whatsapp-3{
+  margin-right: 470px;
+  padding-top: 20px;
+}
+
+.email-2 {
+  position: relative;
+  color: #dda31b;
+  margin-right: 680px;
+  padding-top: 60px;
+  left: 500px;
+  bottom: 115px;
+
+}
+
+.email-3 {
+  position: relative;
+  margin-right: 680px;
+  padding-top: 40px;
+  left: 500px;
+  bottom: 70%;
+}
+
+.__custom-audio-player {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.custom-audio-player button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.music-player{
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.video-display{
+  text-align: center;
+}
+
+.details{
+  text-align: center;
+}
+
+#txt{
+  width: 500px;
+  height: 150px;
+}
+
+#add-txt{
+  width: 500px;
+}
+
+#lets-get{
+  font-family: "Knewave", serif;
+  font-weight: 400;
+  font-style: normal;
+  bottom: 5%;
+  width: 266px;
+  height: 56px;
+}
+
+.h-menu{
+  margin-left: 5px;
+  display: inline-block;
+  margin-top: 5px;
+  padding: 10px 20px;
+  background-color: #dda31b;
+  color: white;
+  text-decoration: none;
+  border-radius: 3px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.h-menu:hover {
+  background-color: #2b2b2b;
+}
+
+
+.ripple-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transform: scale(0);
+    border-radius: 50%;
+    opacity: 0;
+    transition: transform 0.8s ease, opacity 0.8s ease;
+    pointer-events: none;
+    z-index: 1
+}
+
+.bio-text{
+  text-align:center;
+  margin-right: 400px;
+  margin-left: 400px;
+
+}
