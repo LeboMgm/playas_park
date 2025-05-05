@@ -5,256 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MUSIC | Playas Park</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/ppcs.png">
 
+    <!-- Bootstrap Style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/f701c72176.js" crossorigin="anonymous"></script>
   </head>
-  <body id="music">
-    <div class="header-header">
-      <div class="header-menu">
-        <a class="h-menu" href="index.html">HOME</a>
-        <a class="h-menu" href="bio.html">BIO</a>
-        <a class="h-menu" href="music.html">MUSIC</a>
-        <a class="h-menu" href="videos.html">VIDEO</a>
-        <a class="h-menu" href="contacts.html">CONTACT</a>
+  <body class="music-page">
+
+    <!-- Header Section -->
+    <div id="header-header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="header-menu collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bio.html">BIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="music.html">MUSIC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="videos.html">VIDEO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">CONTACT</a>
+          </li>
+        </ul>
       </div>
-      <div class="social-logo">
-        <a href="#">
-          <img src="images/linkedin.jpg" alt=" linkedin logo" href="">
-        </a>
-        <a href="https://www.youtube.com/@playasparkstudios8855">
-          <img src="images/insta.jpg" alt="YouTube logo">
-        </a>
-        <a href="https://www.facebook.com/playasparkrecords">
-          <img src="images/facebook.jpg" alt="facebook logo">
-        </a>
-        <a href="#">
-          <img src="images/whatsapp.jpg" alt="whatsapp logo">
-        </a>
-      </div>
+      </nav>
     </div>
+
+
+    <!-- Title Section -->
+
     <div class="music-txt">
       <h1><span id="p-txt">P</span>layas <span id="p-txt">P</span>ark <span id="p-txt">M</span>usic</h1>
+      <hr id="hr">
       <p>Here will be posting music and instrumentals</p>
       <p>made by Playas Park Creative Space's Artists & Producers.</p>
     </div><br>
+
+    <!-- Music Player Section-->
     <div class= "music-player">
       <div class="custom-audio-player">
         <iframe
-        width="100%"
-        height="166"
-        scrolling="no"
-        frameborder="no"
-        allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1364832304&color=%23d0b650&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-      </iframe>
-      <div
-        style="font-size: 10px;
-        color: #cccccc;
-        line-break: anywhere;
-        word-break: normal;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-        font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
-        font-weight: 100;">
-          <a href="https://soundcloud.com/playaspark_creative_space"
-            title="Playas Park Studios"
-            target="_blank"
-            style="color: #cccccc; text-decoration: none;">Playas Park Studios
-          </a> ·
+          width="100%"
+          height="166"
+          scrolling="no"
+          frameborder="no"
+          allow="autoplay"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1364832304&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+        </iframe>
+        <div style="font-size: 10px;
+          color: #cccccc;
+          line-break: anywhere;
+          word-break: normal;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+        <a href="https://soundcloud.com/playaspark_creative_space"
+          title="Playas Park Studios"
+          target="_blank"
+          style="color: #cccccc; text-decoration: none;">Playas Park Studios</a> ·
           <a href="https://soundcloud.com/playaspark_creative_space/monster"
-            title="Monster"
-            target="_blank"
-            style="color: #cccccc; text-decoration: none;">Monster
-          </a>
+          title="Monster"
+          target="_blank"
+          style="color: #cccccc;
+          text-decoration: none;">Monster</a>
         </div>
       </div>
       <br>
+
       <div class="custom-audio-player">
-        <iframe
-          width="100%"
-          height="166"
-          scrolling="no"
-          frameborder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/881467156&color=%23d0b650&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-        </iframe>
-        <div style="font-size: 10px;
-          color: #cccccc;
-          line-break: anywhere;
-          word-break: normal;
-          overflow: hidden;
-          white-space: nowrap;
-          text-overflow: ellipsis;
-          font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
-          font-weight: 100;">
-            <a href="https://soundcloud.com/playaspark_creative_space"
-              title="Playas Park Studios"
-              target="_blank"
-              style="color: #cccccc;
-              text-decoration: none;
-              ">Playas Park Studios
-            </a> ·
-            <a href="https://soundcloud.com/playaspark_creative_space/ares-chaos-ultimate-beat-contest"
-              title="Ares(CHAOS ULTIMATE BEAT CONTEST)"
-              target="_blank"
-              style="color: #cccccc; text-decoration: none;
-              ">Ares(CHAOS ULTIMATE BEAT CONTEST)
-            </a>
-          </div>
+        <hr id="hr">
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/126573873&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/playaspark_creative_space" title="Playas Park Studios" target="_blank" style="color: #cccccc; text-decoration: none;">Playas Park Studios</a> · <a href="https://soundcloud.com/playaspark_creative_space/get-your-own" title="Get Your Own" target="_blank" style="color: #cccccc; text-decoration: none;">Get Your Own</a></div>
       </div>
       <br>
+
       <div class="custom-audio-player">
-        <iframe
-          width="100%"
-          height="166"
-          scrolling="no"
-          frameborder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/76423683&color=%23d0b650&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-        </iframe>
-        <div style="font-size: 10px;
-          color: #cccccc;
-          line-break: anywhere;
-          word-break: normal;
-          overflow: hidden;
-          white-space: nowrap;
-          text-overflow: ellipsis;
-          font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
-          font-weight: 100;">
-            <a href="https://soundcloud.com/playaspark_creative_space"
-              title="Playas Park Studios"
-              target="_blank"
-              style="color: #cccccc;
-              text-decoration: none;
-              ">Playas Park Studios
-            </a> ·
-            <a href="https://soundcloud.com/playaspark_creative_space/brake-in-it"
-            title="Brake%20in%20it"
-            target="_blank"
-            style="color: #cccccc;
-            text-decoration: none;
-            ">Brake%20in%20it
-          </a>
-        </div>
+        <hr id="hr">
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/49739996&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/playaspark_creative_space" title="Playas Park Studios" target="_blank" style="color: #cccccc; text-decoration: none;">Playas Park Studios</a> · <a href="https://soundcloud.com/playaspark_creative_space/am-20that-20nigga" title="Am%20that%20nigga" target="_blank" style="color: #cccccc; text-decoration: none;">Am%20that%20nigga</a></div>
       </div>
       <br>
+
       <div class="custom-audio-player">
-        <iframe
-          width="100%"
-          height="166"
-          scrolling="no"
-          frameborder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/49739996&color=%23d0b650&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-        </iframe>
-        <div style="font-size: 10px;
-          color: #cccccc;
-          line-break: anywhere;
-          word-break: normal;
-          overflow: hidden;
-          white-space: nowrap;
-          text-overflow: ellipsis;
-          font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
-          font-weight: 100;">
-          <a href="https://soundcloud.com/playaspark_creative_space"
-            title="Playas Park Studios"
-            target="_blank"
-            style="color: #cccccc;
-            text-decoration: none;
-            ">Playas Park Studios
-          </a> ·
-          <a href="https://soundcloud.com/playaspark_creative_space/am-20that-20nigga"
-            title="Am%20that%20nigga"
-            target="_blank"
-            style="color: #cccccc;
-            text-decoration: none;
-            ">Am%20that%20nigga
-          </a>
-        </div>
-      </div>
-      <div class="custom-audio-player">
-        <iframe width="100%"
-          height="166"
-          scrolling="no"
-          frameborder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/126573873&color=%23d0b650&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-        </iframe>
-        <div style="font-size: 10px;
-          color: #cccccc;
-          line-break: anywhere;
-          word-break: normal;
-          overflow: hidden;
-          white-space: nowrap;
-          text-overflow: ellipsis;
-          font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
-          font-weight: 100;">
-            <a href="https://soundcloud.com/playaspark_creative_space"
-              title="Playas Park Studios"
-              target="_blank"
-              style="color: #cccccc;
-              text-decoration: none;
-              ">Playas Park Studios
-            </a> ·
-            <a href="https://soundcloud.com/playaspark_creative_space/get-your-own"
-              title="Get Your Own"
-              target="_blank"
-              style="color: #cccccc;
-              text-decoration: none;">Get Your Own
-          </a>
-        </div>
-      </div>
-      <div class="custom-audio-player">
-        <iframe
-          width="100%"
-          height="166"
-          scrolling="no"
-          frameborder="no"
-          allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/48525836&color=%23d0b650&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-        </iframe>
-        <div style="font-size: 10px;
-          color: #cccccc;
-          line-break: anywhere;
-          word-break: normal;
-          overflow: hidden;
-          white-space: nowrap;
-          text-overflow: ellipsis;
-          font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
-          font-weight: 100;">
-          <a href="https://soundcloud.com/playaspark_creative_space"
-            title="Playas Park Studios"
-            target="_blank"
-            style="color: #cccccc;
-            text-decoration: none;
-            ">Playas Park Studios
-          </a> ·
-          <a href="https://soundcloud.com/playaspark_creative_space/wild-20boy"
-            title="Wild%20boy"
-            target="_blank"
-            style="color: #cccccc;
-            text-decoration: none;">Wild%20boy
-          </a>
-        </div>
+        <hr id="hr">
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/881467156&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/playaspark_creative_space" title="Playas Park Studios" target="_blank" style="color: #cccccc; text-decoration: none;">Playas Park Studios</a> · <a href="https://soundcloud.com/playaspark_creative_space/ares-chaos-ultimate-beat-contest" title="Ares(CHAOS ULTIMATE BEAT CONTEST)" target="_blank" style="color: #cccccc; text-decoration: none;">Ares(CHAOS ULTIMATE BEAT CONTEST)</a></div>
       </div>
     </div>
 
-    <div class="footer-2">
-      <div class="whatsapp-2">
-        <h4>WHATSAPP:</h4>
-        <p>+27 888 4326</p>
-      </div>
-      <div class="email-2">
-        <h4>EMAIL:</h4>
-        <p>PLAYASPARK@GMAIL.COM</p>
+    <!-- Footer Section -->
+    <div id="low-footer-music">
+      <a href="https://x.com/NigFo1"><i class="icon fa-brands fa-x-twitter" style="color: #000000;"></i></a>
+      <a href="https://www.facebook.com/playasparkrecords"><i class="icon fa-brands fa-facebook" style="color: #000000;"></i></a>
+      <i class="icon fa-brands fa-whatsapp" style="color: #000000;"> </i>
+      <i class="icon fa-solid fa-envelope" style="color: #000000;"> </i>
+      <div class="">
+          <p>Copyright 2025: Playas Park Creative Space</p>
       </div>
     </div>
-    <div class="ripple-overlay"></div>
-    <script src="Javascript/script.js"></script>
-  </body>
+</body>
 </html>

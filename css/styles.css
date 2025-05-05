@@ -1,258 +1,221 @@
-.fixed{
-  margin: 0px;
-  background-color: #dda31b;
-  box-sizing: border-box;
-  position:fixed;
+/* Home Page CSS */
+.poster-pic {
+  position: relative;
+}
+
+.learn-button {
+  position: absolute;
+  z-index: 1;
+  bottom: 250px;
+  text-align: center;
+  right: 0px;
+  left: 0px;
 
 }
 
-#contacts-page{
+#footer-home {
+  position: absolute;
+  padding: 2% 0% 0%;
+  text-align: center;
+  right: 0px;
+  left: 0px;
+}
+
+.icon {
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 1020px) {
+  .learn-button {
+    /* position: relative; */
+    bottom: 350px;
+    margin: 30px 284px;
+  }
+  #footer-home {
+    bottom: 30px;
+
+  }
+
+}
+@media (max-width: 810px) {
+  .learn-button {
+    /* position: relative; */
+    bottom: 30px;
+    margin: 230px 0px;
+  }
+  #footer-home {
+    bottom: 30px;
+  }
+}
+@media (max-width: 750px) {
+  .learn-button {
+    /* position: relative; */
+    bottom: 30px;
+    margin: 230px 0px;
+  }
+  #footer-home {
+    bottom: 30px;
+  }
+
+}
+@media (max-width: 530px) {
+  .learn-button {
+    /* position: relative; */
+    bottom: 30px;
+    margin: 230px 0px;
+  }
+  #footer-home {
+    bottom: 30px;
+  }
+
+}
+
+/* Bio Page CSS */
+.card-Body {
+  background-color: #dda31b;
+
+}
+
+#hr {
+  border-top: 5px dotted #fff;
+  width: 25px
+}
+
+
+#p-title-bio {
+  font-family: "Merriweather Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: bold;
+  padding: 0% 30%;
+}
+
+#p-txt {
+  font-family: "Imperial Script", cursive;
+  font-weight: 600;
+  font-size: 50px;
+  font-style: normal;
+}
+
+.card-deck {
+  padding: 2% 10%;
+  margin-bottom: 20px;
+
+}
+
+#footer {
+  position: relative;
   background-color: white;
+  padding: 5% 20% 15%;
+  top: 75px
 }
 
-#p-txt{
-  font-family: "Mea Culpa", serif;
- font-weight: 400;
- font-style: normal;
-  padding-right: 3px;
+#low-footer{
+  text-align: center;
+  position: relative;
+
 }
 
+@media (max-width: 500px ) {
+  #footer {
+    padding: 5% 20% 30%;
+  }
+  #low-footer {
+    padding: 0% 0% 3%;
+  }
 
-h1 {
+}
+
+/* Music Page CSS  */
+.music-txt {
+  text-align: center;
+}
+.music-player {
   text-align: center;
 }
 
-
-.music-txt{
-  text-align: center;
-}
-
-.header-header {
-  position: relative;
-  background-color: white;
-  padding-bottom: 15px;
-  width : 1440px;
-}
-
-.header-menu {
-  display: inline-block;
-  position: relative;
-  margin-top: 30px;
-  margin-left: 65px
-
-}
-
-
-.social-logo{
-  align-items: flex-end;
-  display: inline;
-  margin-left: 635px;
-
-}
-
-.poster-logo{
-  position: relative;
-  height: 640px;
-  width: 1440px;
-
-}
-.poster-pic{
-  margin: 0px;
-  width: 100%;
-  height: 620px;
-}
-
-.footer{
+.music-page {
   background-color: #dda31b;
-  height: 110px;
-  text-align: center;
-  margin-right: 500px;
-
 }
 
-.footer-2{
-  background-color: black;
+#low-footer-music {
   text-align: center;
-  height: 250px
-
+  padding-top: 110px;
+  padding-bottom: 40px;
+  background-color: #fff;
 }
 
-.footer-3 {
+/* Video Page CSS */
+.video-txt {
+  text-align: center;
+}
+
+.video-display {
+  text-align: center;
+}
+
+#low-footer-video {
+  text-align: center;
+  padding-top: 85px;
+  padding-bottom: 69px;
+  margin-top: 25px;
   background-color: #dda31b;
-  height: 140px;
+}
+/* Contact Page CSS */
+
+.contact-txt {
   text-align: center;
-  margin-top: 40px;
 }
 
-.footer-4{
-  background-color: black;
-  text-align: center;
-  height: 250px;
-  margin-top: 110px;
-
+#form {
+  background-color: #e5e5e5;
 }
 
-.email{
-  position: relative;
-  bottom: 50%;
-  left: 450px
+#hr-bl {
+  border-top: 5px dotted #dda31b;
+  width: 25px;
 }
 
+#form {
+  padding: 5% 15%;
+}
 
-p, h3{
-  margin-bottom: 5px;
+#low-footer-video {
   margin-top: 0px;
-  font-family: "Public Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
 
-
-h4{
-  color: white;
-  margin-bottom: 5px;
-  margin-top: 5px;
-  font-family: "Merriweather Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+.col {
+  margin-top: 5%;
 }
 
-
-#{
-  font-family: "Lexend", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+.form-group {
+  margin-top: 5%;
 }
 
-a{
-  font-family: "Shippori Antique", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
-.whatsapp-2 {
-  color: #dda31b;
-  margin-right: 470px;
-  padding-top: 20px;
-  left: 20px;
-
-}
-
-.whatsapp-3{
-  margin-right: 470px;
-  padding-top: 20px;
-}
-
-.email-2 {
-  position: relative;
-  color: #dda31b;
-  margin-right: 680px;
-  padding-top: 60px;
-  left: 500px;
-  bottom: 115px;
-
-}
-
-.email-3 {
-  position: relative;
-  margin-right: 680px;
-  padding-top: 40px;
-  left: 500px;
-  bottom: 70%;
-}
-
-.__custom-audio-player {
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 10px;
+.submit-button {
+  padding: 3% 15%;
   text-align: center;
 }
 
+@media (min-width: 490px) {
+  .names-txt {
+      margin-right: 0px;
+    }
+  div.mb-3 {margin-right: 150px;}
+  }
 
-.custom-audio-player button {
-  background-color: #007BFF;
-  color: white;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  margin: 5px;
-  cursor: pointer;
-}
-
-.music-player{
-  text-align: center;
-  margin-bottom: 3%;
-}
-
-.video-display{
+/* Submit Page CSS */
+.card-sub {
+  padding: 10% 20%;
   text-align: center;
 }
 
-.details{
-  text-align: center;
-}
-
-#txt{
-  width: 500px;
-  height: 150px;
-}
-
-#add-txt{
-  width: 500px;
-}
-
-#lets-get{
-  font-family: "Knewave", serif;
-  font-weight: 400;
-  font-style: normal;
-  bottom: 5%;
-  width: 266px;
-  height: 56px;
-}
-
-.h-menu{
-  margin-left: 5px;
-  display: inline-block;
-  margin-top: 5px;
-  padding: 10px 20px;
+#submit {
   background-color: #dda31b;
-  color: white;
-  text-decoration: none;
-  border-radius: 3px;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  z-index: 2;
 }
-
-.h-menu:hover {
-  background-color: #2b2b2b;
-}
-
-
-.ripple-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    transform: scale(0);
-    border-radius: 50%;
-    opacity: 0;
-    transition: transform 0.8s ease, opacity 0.8s ease;
-    pointer-events: none;
-    z-index: 1
-}
-
-.bio-text{
-  text-align:center;
-  margin-right: 400px;
-  margin-left: 400px;
+#low-footer-submit {
+  padding-top: 221px;
+  text-align: center;
 
 }

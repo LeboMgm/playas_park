@@ -5,65 +5,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BIO | Playas Park</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/ppcs.png">
+
+    <!-- Bootstrap Style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/f701c72176.js" crossorigin="anonymous"></script>
 
   </head>
-  <body class="fixedS">
-    <div class="header-header">
-      <div class="header-menu">
-        <a class="h-menu" href="index.html">HOME</a>
-        <a class="h-menu" href="bio.html">BIO</a>
-        <a class="h-menu" href="music.html">MUSIC</a>
-        <a class="h-menu" href="videos.html">VIDEO</a>
-        <a class="h-menu" href="contacts.html">CONTACT</a>
+  <body>
+    <!-- Header Section -->
+    <div id="header-header-bio">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="header-menu collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bio.html">BIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="music.html">MUSIC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="videos.html">VIDEO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">CONTACT</a>
+          </li>
+        </ul>
       </div>
-      <div class="social-logo">
-        <a href="#">
-          <img src="images/linkedin.jpg" alt=" linkedin logo" href="">
-        </a>
-        <a href="https://www.youtube.com/@playasparkstudios8855">
-          <img src="images/insta.jpg" alt="YouTube logo">
-        </a>
-        <a href="https://www.facebook.com/playasparkrecords">
-          <img src="images/facebook.jpg" alt="facebook logo">
-        </a>
-        <a href="#">
-          <img src="images/whatsapp.jpg" alt="whatsapp logo">
-        </a>
-      </div>
-    </div>
-    <h1><span id="p-txt">A</span>bout <span id="p-txt">U</span>s!!</h1>
-    <div class="bio-text">
-      <p>Playas Park Creative Space is a Media House founded in 2010 by Artist, Super Producer, and Software Develpor Specialist, Nigfo</p>
-      <br>
-      <p>Current acts in music studio recording are;</p>
-      <li>Nigfo</li>
-      <li>Syi</li>
-      <li>Mellodee</li>
-      <li>Buddy Wave</li>
-      <li>MSDEE</li>
-      <p>amoungs other young talent in Pretoria</p>
-      <br>
-      <p>Playas Park Creative Space is also expert in film and video production</p>
-      <p> Playas Park has worked with serveral film production to assist in soundtracks,videography, music video scripts, and video editing</p>
-      <br>
+      </nav>
     </div>
 
-    <div class="footer-4">
-      <div class="whatsapp-2">
-        <h4>WHATSAPP:</h4>
-        <p>+27 888 4326</p>
+    <!-- Title Section -->
+    <div class="card text-center">
+      <div class="card-Body">
+        <h1><span id="p-txt">A</span>bout <span id="p-txt">U</span>s!!</h1>
+        <hr id="hr">
+        <p id="p-title-bio">Playas Park Creative Space is a Multimedia House founded in 2010. After a long brake, the media house has again teamed up with the hottest new talents to hit the streets of Pretoria</p>
+        <p>Current Recording Artists are:</p>
+
+        <!-- Artist Section -->
+        <div class="card-deck">
+          <div class="card">
+            <img src="images/nigfo.png" class="card-img-top" alt="Nigfo Pic">
+            <div class="card-body">
+              <a href="https://www.facebook.com/nigfo.jones"><h5 class="card-title">Nigfo</h5></a>
+              <p class="card-text">Songwriter, Beat Producer, DJ, Sound Engineer, Software Developer, and Co-Founder of Playas Park Creative Space.</p>
+              <p class="card-text"><small class="text-muted">Multimedia Producer</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/mellodee.png" class="card-img-top" alt="Mellodee Pic">
+            <div class="card-body">
+              <a href="https://www.facebook.com/profile.php?id=100091984716155"><h5 class="card-title">Mellodee</h5></a>
+              <p class="card-text">Trap Superstar rapper, songwriter, Storyteller, Pitori Rap Star, amazing collaborator</p>
+              <p class="card-text"><small class="text-muted">Rap Artist</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/Spanyo.png" class="card-img-top" alt="Spanyo Pic">
+            <div class="card-body">
+              <a href="https://www.facebook.com/abubakari.sadick.948"><h5 class="card-title">Spanyo</h5></a>
+              <p class="card-text">Trap Star, Tanzania Rap Star, songwriter, dope Swahili rapper </p>
+              <p class="card-text"><small class="text-muted">Rap Artist</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/thabo-tee.png" class="card-img-top" alt="Msdee Pic">
+            <div class="card-body">
+              <a href="https://www.facebook.com/profile.php?id=100079535131564"><h5 class="card-title">Thabo-Tee</h5></a>
+              <p class="card-text">Trap Star Rapper, crazy lyricist, comdination of Pitori rap, with modern hip Hop skills </p>
+              <p class="card-text"><small class="text-muted">Rap Artist</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/ev.jpeg" class="card-img-top" alt="Buddy Wave Pic">
+            <div class="card-body">
+              <a href="https://www.instagram.com/ricarrdo_wolf/"><h5 class="card-title">Evian</h5></a>
+              <p class="card-text">Underground Rapper, Songwriter, Skilled Musical Artist(Hip hop, pop, alternetive)  </p>
+              <p class="card-text"><small class="text-muted">Rap Artist</small></p>
+            </d
+            iv>
+          </div>
+        </div>
       </div>
-      <div class="email-2">
-        <h4>EMAIL:</h4>
-        <p>PLAYASPARK@GMAIL.COM</p>
-      </div>
-    </div>
-    <div class="ripple-overlay"></div>
-    <script src="Javascript/script.js"></script>
-  </body>
-</html>
+
+        <!-- Footer Section -->
+        <div id="footer">
+          <div class="text-muted">
+            <p>Playas Park Creative Space is also expert in film and video production</p>
+            <p> Playas Park has worked with serveral film production to assist in soundtracks,videography, music video scripts, and video editing</p>
+            <a href="music.html"><button type="button" class="btn btn-dark btn-lg">Play Music</button></a>
+            <a href="videos.html"><button type="button" class="btn btn-outline-dark btn-lg">View Videos</button></a>
+          </div>
+        </div>
+
+        <!-- Lower footer Section -->
+        <div id="low-footer">
+          <a href="https://x.com/NigFo1"><i class="icon fa-brands fa-x-twitter" style="color: #000000;"></i></a>
+          <a href="https://www.facebook.com/playasparkrecords"><i class="icon fa-brands fa-facebook" style="color: #000000;"></i></a>
+          <i class="icon fa-brands fa-whatsapp" style="color: #000000;"> </i>
+          <i class="icon fa-solid fa-envelope" style="color: #000000;"> </i>
+          <div class="">
+              <p>Copyright 2025: Playas Park Creative Space</p>
+          </div>
+        </div>
+    </body>
+  </html>

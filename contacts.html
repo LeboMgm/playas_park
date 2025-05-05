@@ -5,64 +5,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACTS | Playas Park</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/ppcs.png">
+
+    <!-- Bootstrap Style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/f701c72176.js" crossorigin="anonymous"></script>
 
   </head>
-  <body id="contacts-page" class="fixed">
-    <div class="header-header">
-      <div class="header-menu">
-        <a class="h-menu" href="index.html">HOME</a>
-        <a class="h-menu" href="bio.html">BIO</a>
-        <a class="h-menu" href="music.html">MUSIC</a>
-        <a class="h-menu" href="videos.html">VIDEO</a>
-        <a class="h-menu" href="contacts.html">CONTACT</a>
+  <body id="contacts-page">
+    <!-- Header Section -->
+    <div id="header-header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="header-menu collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bio.html">BIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="music.html">MUSIC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="videos.html">VIDEO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">CONTACT</a>
+          </li>
+        </ul>
       </div>
-      <div class="social-logo">
-        <a href="#">
-          <img src="images/linkedin.jpg" alt=" linkedin logo" href="">
-        </a>
-        <a href="https://www.youtube.com/@playasparkstudios8855">
-          <img src="images/insta.jpg" alt="YouTube logo">
-        </a>
-        <a href="https://www.facebook.com/playasparkrecords">
-          <img src="images/facebook.jpg" alt="facebook logo">
-        </a>
-        <a href="#">
-          <img src="images/whatsapp.jpg" alt="whatsapp logo">
-        </a>
-      </div>
+      </nav>
     </div>
-    <div class="details">
-      <h1><span id="p-txt">C</span>ontact <span id="p-txt">U</span>s</h1>
-      <br>
-      <form class="INFO" action="index.html" method="post">
-        <label for="name">Name:</label><br>
-        <input id="add-txt" type="text" name="name" value=""><br><br>
-        <label for="surname">Surname</label><br>
-        <input id="add-txt" type="text" name="surname" value=""><br><br>
-        <label for="subject">Subjact</label><br>
-        <input id="add-txt" type="text" name="subject" value=""><br><br>
-        <label for="message">Message</label><br>
-        <input id="txt" type="text" name="Message" value=""><br><br>
-        <button type="submit" name="button" id="lets-get">Lets get creative !!</button>
+
+    <!-- Title Section -->
+    <div class="contact-txt">
+      <h1><span id="p-txt">C</span>ontact <span id="p-txt">U</span>s!</h1>
+      <h5>WE WOULD LIKE TO HEAR FROM YOU</h5>
+      <hr id="hr-bl">
+    </div>
+
+    <!-- Form Section -->
+    <div>
+      <form id="form" action="https://formsubmit.co/68cc9b3cf0354e810dc29fdc00678ed0" method="POST"/>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="Bookings" id="inlineRadio1" value="Bookings">
+          <label class="form-check-label" for="inlineRadio1">Bookings</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="Enquiries" id="inlineRadio2" value="Enquiries">
+          <label class="form-check-label" for="inlineRadio2">Enquiries</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="Collab" id="inlineRadio3" value="Collab" disabled>
+          <label class="form-check-label" for="inlineRadio3">Collab</label>
+        </div>
+        <div class="form-row">
+          <div class="col cols-lg-6 cols-md-6 names-txt">
+            <input type="text" name="name" class="form-control" placeholder="First name">
+          </div>
+          <div class="col col-lg-6 col-md-6">
+            <input type="text" name="surname" class="form-control names-txt" placeholder="Last name">
+          </div>
+          <div class="col col-lg-6 col-md-6 ">
+            <div class="input-group mb-3">
+              <input type="email" name="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon2">@example.com</span>
+              </div>
+            </div>
+            <small class="text-muted">
+              Your email will not be shared to anyone.
+            </small>
+          </div>
+          <div class="col col-lg-6 col-md-6">
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">+27</span>
+              </div>
+              <input type="tel" name="number" class="form-control" placeholder="Phonenumber" aria-label="Phonenumber" aria-describedby="basic-addon1">
+            </div>
+            <small class="text-muted">
+              Your number will not be shared to anyone.
+            </small>
+          </div>
+          <div class="form-group">
+           <label for="exampleFormControlTextarea1">Message:</label>
+           <textarea class="form-control" name="Message" id="exampleFormControlTextarea1" rows="10" cols="150"></textarea>
+         </div>
+        </div>
+        <div class="submit-button">
+         <button type="submit" class="btn btn-warning btn-lg">submit</button>
+       </div>
       </form>
     </div>
-    <div class="footer-3">
-      <div class="whatsapp-3">
-        <h4>WHATSAPP:</h4>
-        <p>+27 888 4326</p>
-      </div>
-      <div class="email-3">
-        <h4>EMAIL:</h4>
-        <p>PLAYASPARK@GMAIL.COM</p>
+
+    <!-- Footer Section -->
+    <div id="low-footer-video">
+      <a href="https://x.com/NigFo1"><i class="icon fa-brands fa-x-twitter" style="color: #000000;"></i></a>
+      <a href="https://www.facebook.com/playasparkrecords"><i class="icon fa-brands fa-facebook" style="color: #000000;"></i></a>
+      <i class="icon fa-brands fa-whatsapp" style="color: #000000;"> </i>
+      <i class="icon fa-solid fa-envelope" style="color: #000000;"> </i>
+      <div class="">
+          <p>Copyright 2025: Playas Park Creative Space</p>
       </div>
     </div>
-    <div class="ripple-overlay"></div>
-    <script src="Javascript/script.js"></script>
+
   </body>
 </html>

@@ -5,50 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Playas Park Creative Space</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/ppcs.png">
+
+    <!-- Bootstrap Style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/f701c72176.js" crossorigin="anonymous"></script>
   </head>
 
-  <body class="fixed">
-    <div class="header-header">
-      <div class="header-menu">
-        <a class="h-menu" href="index.html">HOME</a>
-        <a class="h-menu" href="bio.html">BIO</a>
-        <a class="h-menu" href="music.html">MUSIC</a>
-        <a class="h-menu" href="videos.html">VIDEO</a>
-        <a class="h-menu" href="contacts.html">CONTACT</a>
+  <body>
+    <!-- Header Section -->
+    <div id="header-header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="header-menu collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bio.html">BIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="music.html">MUSIC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="videos.html">VIDEO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">CONTACT</a>
+          </li>
+        </ul>
       </div>
-      <div class="social-logo">
-        <a href="#">
-          <img src="images/linkedin.jpg" alt=" linkedin logo" href="">
-        </a>
-        <a href="https://www.youtube.com/@playasparkstudios8855">
-          <img src="images/insta.jpg" alt="YouTube logo">
-        </a>
-        <a href="https://www.facebook.com/playasparkrecords">
-          <img src="images/facebook.jpg" alt="facebook logo">
-        </a>
-        <a href="#">
-          <img src="images/whatsapp.jpg" alt="whatsapp logo">
-        </a>
+      </nav>
+    </div>
+
+    <!-- Poster Section -->
+    <div id="poster">
+      <div class="row">
+        <img class= "poster-pic col-lg" src="images/Playas Park Studio.gif" alt=" Playas Park Studio logo">
+        <div class="learn-button">
+          <a href="bio.html"><button type="button" class="btn btn-warning btn-lg btn-md">Learn More</button></a>
+        </div>
       </div>
     </div>
-    <div class="poster">
-      <img class= "poster-pic" src="images/Playas Park Studio.gif" alt=" Playas Park Studio logo">
-    </div>
-    <div class="footer">
-      <div class="whatsapp">
-        <h4>WHATSAPP:</h4>
-        <p>+27 888 4326</p>
-      </div>
-      <div class="email">
-        <h4>EMAIL:</h4>
-        <p>PLAYASPARK@GMAIL.COM</p>
+
+    <!-- Footer Section -->
+    <div id="footer-home">
+      <a href="https://x.com/NigFo1"><i class="icon fa-brands fa-x-twitter" style="color: #000000;"></i></a>
+      <a href="https://www.facebook.com/playasparkrecords"><i class="icon fa-brands fa-facebook" style="color: #000000;"></i></a>
+      <i class="icon fa-brands fa-whatsapp" style="color: #000000;"> </i>
+      <i class="icon fa-solid fa-envelope" style="color: #000000;"> </i>
+      <div class="">
+          <p>Copyright 2025: Playas Park Creative Space</p>
       </div>
     </div>
-    <div class="ripple-overlay"></div>
-    <script src="Javascript/script.js"></script>
   </body>
 </html>
