@@ -198,7 +198,7 @@
   text-align: center;
 }
 
-@media (min-width: 490px) {
+@media (min-width: 390px) {
   .names-txt {
       margin-right: 0px;
     }
